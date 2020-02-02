@@ -41,6 +41,7 @@ def gross_for_director(director_data, index)
 
   p total_array.sum
 end
+
   
 
 
