@@ -25,7 +25,6 @@ def directors_totals(nds)
     count += 1}
   
   p new_aoh
-  p nds[0]
 end
 
 #directors_totals(directors_database)
