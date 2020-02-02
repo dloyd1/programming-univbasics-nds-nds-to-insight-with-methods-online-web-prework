@@ -32,17 +32,17 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 
-def gross_for_director(director_data)
+def gross_for_director(director_data, index)
   
   total_array = Array.new
  
-    director_data[0][:movies].each { |n| 
+    director_data[index][:movies].each { |n| 
         total_array << n[:worldwide_gross] }
 
   p total_array.sum
 end
 
-def gross_for_director(directors_database)
+gross_for_director(directors_database, 0)
 
   
 
