@@ -49,10 +49,10 @@ end
     director_data[count][:movies].each { |n| 
         total_array << n[:worldwide_gross] 
         new_aoh[director_array[count]] = total_array.sum.to_i}
-    total_array.clear
+    total_array
     count += 1}
   
-  p new_aoh
+  p total_array.sum
 # end
   
 
