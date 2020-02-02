@@ -28,7 +28,7 @@ def directors_totals(nds)
   p nds[0]
 end
 
-directors_totals(directors_database)
+#directors_totals(directors_database)
 
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
