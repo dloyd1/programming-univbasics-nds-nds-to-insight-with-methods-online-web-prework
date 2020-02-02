@@ -34,6 +34,7 @@ end
 
 def gross_for_director(director_data, index)
   
+  total_array = Array.new
  
     director_data[index][:movies].each { |n| 
         total_array << n[:worldwide_gross] }
